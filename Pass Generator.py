@@ -1,6 +1,14 @@
+import os
+from os import *
+
+system("pip install random")
+system("pip install string")
+system("pip install art")
+system("pip install termcolor")
+system("cls")
+
 import random
 import string
-import os
 from random import choice, randint
 from art import *
 from termcolor import colored
